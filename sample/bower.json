@@ -1,0 +1,31 @@
+{
+  "name": "three-dxf-sample",
+  "main": "index.js",
+  "homepage": "https://github.com/shinobushiva/dxf-tiip-view",
+  "authors": [
+    "Shinobu Izumi"
+  ],
+  "description": "example project of using the three-dxf-tiip view",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "dxf",
+    "cad",
+    "threejs",
+    "tiip"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "dxf-parser": "~0.4.2",
+    "three-dxf": "https://github.com/shinobushiva/three-dxf.git#master"
+  }
+}

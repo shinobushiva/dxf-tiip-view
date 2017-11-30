@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+private/
+typings/
+build/
+.vscode/
+sample/bower_components/
+
+dxf

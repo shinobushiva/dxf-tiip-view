@@ -1,0 +1,59 @@
+#cad-view {
+    display: inline-block;
+    margin: 10px 0;
+    width:100%;
+    /*			border: 1px solid #666;*/
+}
+#cad-view > canvas {
+    border: 1px solid #666;
+    z-index: 10;
+}
+
+.progress {
+    opacity: 0;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+}
+
+.progress.loading {
+    opacity: 1;
+}
+
+.card-header i{
+  font-size: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.card-tool {
+  margin-left: 1em;
+}
+
+.card-header > label {
+  vertical-align: middle;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+
+.card-header > input {
+  margin-left: 1em;
+}
+
+.piece-name {
+  font-weight: bolder;
+  margin-left: 1em;
+}
+
+.cad-placeholder{
+  line-height: 5em;
+    margin: auto auto;
+    display: block;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    width:100%;
+}
