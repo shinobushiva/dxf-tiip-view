@@ -6,4 +6,4 @@ build/
 .vscode/
 sample/bower_components/
 
-dxf
+**.dxf
